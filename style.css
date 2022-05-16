@@ -1,4 +1,51 @@
 body {
-    background:blue;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url('/intro-js/hosting-in-github/myBackground.jpg');
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-blend-mode: darken;
     
+
 }
+
+#navigationMenu {
+  
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color: aliceblue;opacity: .9;
+    
+
+}
+
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+#nav-list a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 20px;
+
+}
+
+
+#content{
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 20%;
+
+}
+
+
