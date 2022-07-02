@@ -62,9 +62,6 @@ body {
     position: relative;
     margin: auto;
     margin-top: 5px;
-    
-    border-color: black;
-    border-style: outset;
     margin-left: 50px;
     width: 90%;
     height: 100%;
@@ -97,8 +94,10 @@ body {
     height: 300px;
 }
 .javaScriptText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    text-size-adjust: 26px;
+    font-weight:300 ;
+    text-size-adjust: 30px;
     text-align: left;
     left: 410px;
 }
@@ -127,3 +126,25 @@ height: 300px;
     text-size-adjust: 30px;
 
 }
+
+#btn1{
+    color: black;
+    background-color: white;
+    size: 22px;
+}
+
+#btn1:hover{
+    background-color: aqua;
+
+}
+
+
+.merchBody{
+    margin-top: 2rem;
+}
+
+ .merchBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+
+ }
