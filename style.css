@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+font-family: 'Courier Prime', monospace;
+
+body h1 h2 h3 h4 p li ul {
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+
+}
+
 body {
     margin: 0;
     padding: 0;
     border: 0;
-    background-image: url('/intro-js/hosting-in-github/myBackground.jpg');
-    background-size: cover;
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-color: aliceblue;
-    background-blend-mode: darken;
+    
     
 
 }
@@ -41,11 +46,105 @@ body {
 }
 
 
-#content{
-    box-sizing: border-box;
+
+.backgroundImage{
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    filter: brightness(100%) contrast(120%);
+
+}
+
+#content {
     position: relative;
-    margin-left: 20%;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 90%;
+    height: 100%;
+
+
+}
+
+#heading {
+ text-align: center;
+ 
+
+}
+
+#heading h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #1df305;
 
 }
 
 
+.javaScript {
+    position:relative;
+    width: 60%;
+    height: 400px;
+
+}
+.javaScriptImage{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+.javaScriptText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-weight:300 ;
+    text-size-adjust: 30px;
+    text-align: left;
+    left: 410px;
+}
+
+.basicWeb {
+    position: relative;
+    width: 60%;
+    height: 400px;
+
+}
+
+.basicWebImage {
+position: absolute;
+width: 400px;
+height: 300px;
+
+}
+
+.basicWebText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 250;
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 410px;
+    text-size-adjust: 30px;
+
+}
+
+#btn1{
+    color: black;
+    background-color: white;
+    size: 22px;
+}
+
+#btn1:hover{
+    background-color: aqua;
+
+}
+
+
+.merchBody{
+    margin-top: 2rem;
+}
+
+ .merchBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+
+ }

@@ -1,0 +1,48 @@
+.merchContainer {
+
+    padding: 4rem 0 3rem;
+    margin-left: 80px;
+
+}
+
+.merchTitle {
+
+    text-align: center;
+
+}
+
+.merchBody {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 0.5rem;
+
+
+}
+
+
+.merchBox {
+    position: relative;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    
+   
+
+
+}
+
+
+.merchBox:hover {
+    padding: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+
+}
+
+
+.productImg {
+    gap: 1rem;
+    width: 500px;
+    height: auto;
+
+}
